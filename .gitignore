@@ -48,11 +48,11 @@ IBZKPT
 REPORT
 DYNMAT
 XDATCAR
-submit_vasp.sh
-submit_ase.sh
+submit_*.sh
 job_number
 FC*-*/
 RAMAN-*.*/
 POSCAR_FC2-*
 POSCAR-*
 Raman-POSCAR.*.*.vasp
+makefile
