@@ -1,0 +1,20 @@
+# Functional
+GGA = PE
+
+# Electrons
+PREC = Accurate
+ENCUT = 520
+KSPACING = 0.15
+ISMEAR = -5
+EDIFF = 1e-6
+NELM = 120
+NELMIN = 8
+NBANDS = 36
+ISYM = 0
+
+# DOS/PDOS
+ICHARG = 11
+LORBIT = 11
+EMIN = -20
+EMAX = +20
+NEDOS = 2000

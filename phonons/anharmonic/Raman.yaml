@@ -1,0 +1,80 @@
+distance_units: Ang
+frequency_units: THz
+step_units: sqrt(amu) * Ang
+
+lattice_vectors:
+     - [      1.90289823,     -3.29591642,      0.00000000 ]
+     - [      1.90289823,      3.29591642,      0.00000000 ]
+     - [      0.00000000,      0.00000000,      6.23798163 ]
+
+displacement_sets:
+- # 1
+  band_index: 4
+  frequency: 2.019877981275027
+  displacements:
+   - # Step 1
+     displacement_step: -0.07189577
+     max_cartesian_displacement: -0.00542713
+   - # Step 2
+     displacement_step: 0.07189577
+     max_cartesian_displacement: 0.00542713
+- # 2
+  band_index: 5
+  frequency: 2.019877981275039
+  displacements:
+   - # Step 1
+     displacement_step: -0.07189577
+     max_cartesian_displacement: -0.00542713
+   - # Step 2
+     displacement_step: 0.07189577
+     max_cartesian_displacement: 0.00542713
+- # 3
+  band_index: 7
+  frequency: 8.275874801811355
+  displacements:
+   - # Step 1
+     displacement_step: -0.06206824
+     max_cartesian_displacement: -0.00634864
+   - # Step 2
+     displacement_step: 0.06206824
+     max_cartesian_displacement: 0.00634864
+- # 4
+  band_index: 8
+  frequency: 8.400401165359856
+  displacements:
+   - # Step 1
+     displacement_step: -0.06206818
+     max_cartesian_displacement: -0.00634864
+   - # Step 2
+     displacement_step: 0.06206818
+     max_cartesian_displacement: 0.00634864
+- # 5
+  band_index: 9
+  frequency: 8.400401165359856
+  displacements:
+   - # Step 1
+     displacement_step: -0.06206818
+     max_cartesian_displacement: -0.00634864
+   - # Step 2
+     displacement_step: 0.06206818
+     max_cartesian_displacement: 0.00634864
+- # 6
+  band_index: 10
+  frequency: 8.598824496172673
+  displacements:
+   - # Step 1
+     displacement_step: -0.06070564
+     max_cartesian_displacement: -0.00654339
+   - # Step 2
+     displacement_step: 0.06070564
+     max_cartesian_displacement: 0.00654339
+- # 7
+  band_index: 11
+  frequency: 8.598824496172675
+  displacements:
+   - # Step 1
+     displacement_step: -0.06070564
+     max_cartesian_displacement: -0.00654339
+   - # Step 2
+     displacement_step: 0.06070564
+     max_cartesian_displacement: 0.00654339

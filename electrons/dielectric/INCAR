@@ -1,0 +1,14 @@
+# Functional
+GGA = PE
+
+# Electrons
+PREC = Accurate
+ENCUT = 520
+KSPACING = 0.3
+ISMEAR = -5
+EDIFF = 1e-6
+NELM = 120
+NELMIN = 8
+
+# Dielectric
+LEPSILON = True

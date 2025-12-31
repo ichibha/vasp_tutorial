@@ -1,0 +1,4 @@
+  useRecommendedBasisFunctions
+  COHPstartEnergy -20
+  COHPendEnergy    20
+  cohpBetween atom 3 atom 5 orbitalWise

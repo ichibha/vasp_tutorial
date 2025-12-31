@@ -1,0 +1,58 @@
+# macos
+Icon?
+Thumbs.db
+.DS_Store
+
+# python
+__pycache__/
+
+# java script
+node_modules/
+
+# emacs
+*~
+\#*\#
+
+# latex
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fls
+*.log
+*.fdb_latexmk
+paperNotes.bib
+acs-si.bib
+paper.bib
+
+# binary
+*.zip
+*.pkl
+*.docx
+*.pptx
+*.traj
+*.webarchive
+*.gz
+
+# project-specific
+vasp*
+pp/
+WAVECAR
+CHGCAR
+CHG
+POTCAR
+EIGENVAL
+OSZICAR
+PCDAT
+IBZKPT
+REPORT
+DYNMAT
+XDATCAR
+submit_vasp.sh
+submit_ase.sh
+job_number
+FC*-*/
+RAMAN-*.*/
+POSCAR_FC2-*
+POSCAR-*
+Raman-POSCAR.*.*.vasp
