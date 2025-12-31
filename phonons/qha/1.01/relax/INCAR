@@ -1,0 +1,17 @@
+# Functional
+GGA = PE
+
+# Electrons
+PREC = Accurate
+ENCUT = 520
+KSPACING = 0.3
+ISMEAR = 0; SIGMA = 0.03
+EDIFF = 1e-6
+NELM = 120
+NELMIN = 8
+
+# Ions
+ISIF = 2 # changed
+IBRION = 1
+EDIFFG = -1e-3
+NSW = 200
