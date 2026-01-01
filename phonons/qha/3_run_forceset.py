@@ -7,7 +7,7 @@ import numpy as np
 
 for scale in np.arange(0.95, 1.05 + 1e-8, 0.01):
     # 変位構造を生成
-    root_dir = Path(f"{scale:.2f}")
+    root_dir = Path(f"scale_{scale:.2f}")
     shutil.copy(root_dir / "relax" / "CONTCAR", root_dir / "POSCAR")
     subprocess.run("phonopy -d --dim 3 3 2 --nac", shell=True, cwd=root_dir)
 

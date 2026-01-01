@@ -11,7 +11,7 @@ atoms_vcrelax = read("POSCAR")
 
 for scale in np.arange(0.95, 1.05 + 1e-8, 0.01):
     # 計算ディレクトリを作成
-    calc_dir = Path(f"{scale:.2f}", "relax")
+    calc_dir = Path(f"scale_{scale:.2f}", "relax")
     os.makedirs(calc_dir, exist_ok=True)
 
     # 格子ベクトルをscale倍したatomsを作成、出力
