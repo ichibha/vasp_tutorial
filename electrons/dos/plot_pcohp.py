@@ -57,15 +57,16 @@ plotter.add_cohp(label=f"Si-3p and O-2p", cohp=cohp_3p_2p)
 # COHPをプロットする
 ax = plotter.get_plot()
 
-# 線色と線形を変更する
+# 線色と線種を変更する
 lines = ax.lines
-lines[0].set_color("black")
+lines[0].set_color("lightgray")
 lines[0].set_linestyle("dotted")
-lines[1].set_color("black")
+lines[1].set_color("lightgray")
 lines[1].set_linestyle("dashed")
-lines[2].set_color("black")
-lines[2].set_linestyle("solid")
-lines[3].set_color("red")
+lines[2].set_color("lightgray")
+lines[2].set_linestyle("dashdot")
+lines[3].set_color("black")
+lines[3].set_linestyle("solid")
 
 # プロットを出力
 plt.legend()
